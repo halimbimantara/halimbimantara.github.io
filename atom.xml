@@ -4,7 +4,7 @@
   <title><![CDATA[Halim[T4arj0]]]></title>
   <link href="http://halimbimantara.github.io/atom.xml" rel="self"/>
   <link href="http://halimbimantara.github.io/"/>
-  <updated>2015-01-19T21:48:15+07:00</updated>
+  <updated>2015-01-19T22:19:37+07:00</updated>
   <id>http://halimbimantara.github.io/</id>
   <author>
     <name><![CDATA[Halim Bimantara]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Tutorial Augmented Reality Dengan Unity3D &amp; Vuforia]]></title>
+    <title type="html"><![CDATA[Tutorial Augmented Reality Dengan Unity3D & Vuforia]]></title>
     <link href="http://halimbimantara.github.io/blog/2015/01/19/tutorial-augmented-reality-dengan-unity3d-and-vuforia/"/>
     <updated>2015-01-19T21:16:16+07:00</updated>
     <id>http://halimbimantara.github.io/blog/2015/01/19/tutorial-augmented-reality-dengan-unity3d-and-vuforia</id>
@@ -22,10 +22,13 @@
 
 <p>Langkah pertama siapkan :</p>
 
-<p>1.Unity 3D
-2.Vuforia <a href="http://developer.vuforia.com">http://developer.vuforia.com</a>
-3.Blender
-4.Android SDK</p>
+<ol>
+<li>Unity 3D</li>
+<li>Vuforia <a href="http://developer.vuforia.com">Download</a></li>
+<li>Blender</li>
+<li>Android SDK</li>
+</ol>
+
 ]]></content>
   </entry>
   
