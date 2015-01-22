@@ -4,7 +4,7 @@
   <title><![CDATA[Halim[T4arj0]]]></title>
   <link href="http://halimbimantara.github.io/atom.xml" rel="self"/>
   <link href="http://halimbimantara.github.io/"/>
-  <updated>2015-01-22T14:47:53+07:00</updated>
+  <updated>2015-01-22T15:05:41+07:00</updated>
   <id>http://halimbimantara.github.io/</id>
   <author>
     <name><![CDATA[Halim Bimantara]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Install Git Di Linux Mint]]></title>
+    <link href="http://halimbimantara.github.io/blog/2015/01/22/install-git-di-linux-mint/"/>
+    <updated>2015-01-22T14:57:03+07:00</updated>
+    <id>http://halimbimantara.github.io/blog/2015/01/22/install-git-di-linux-mint</id>
+    <content type="html"><![CDATA[<p>Kali ini saya akan sedikit sharing mengenai instalasi git di linux mint.
+Pastikan anda sudah mendaftar <a href="http://github.com">Github</a></p>
+
+<p>Stepnya Seperti berikut :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>halim@halim_xda ~ <span class="nv">$ </span>sudo apt-get update
+</span><span class='line'>halim@halim_xda ~ <span class="nv">$ </span>sudo apt-get install git
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Setting user github</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>halim@halim_xda ~ <span class="nv">$ </span>git config --global user.email <span class="s2">&quot;bimadel6@gmail.com&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Membuat Buku Digital Epub]]></title>

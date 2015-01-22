@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Linux | Halim[T4arj0]]]></title>
+  <link href="http://halimbimantara.github.io/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://halimbimantara.github.io/"/>
+  <updated>2015-01-22T15:05:41+07:00</updated>
+  <id>http://halimbimantara.github.io/</id>
+  <author>
+    <name><![CDATA[Halim Bimantara]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Install Git Di Linux Mint]]></title>
+    <link href="http://halimbimantara.github.io/blog/2015/01/22/install-git-di-linux-mint/"/>
+    <updated>2015-01-22T14:57:03+07:00</updated>
+    <id>http://halimbimantara.github.io/blog/2015/01/22/install-git-di-linux-mint</id>
+    <content type="html"><![CDATA[<p>Kali ini saya akan sedikit sharing mengenai instalasi git di linux mint.
+Pastikan anda sudah mendaftar <a href="http://github.com">Github</a></p>
+
+<p>Stepnya Seperti berikut :</p>
+
+<pre><code class="bash ">halim@halim_xda ~ $ sudo apt-get update
+halim@halim_xda ~ $ sudo apt-get install git
+</code></pre>
+
+<p>Setting user github</p>
+
+<pre><code class="bash ">halim@halim_xda ~ $ git config --global user.email "bimadel6@gmail.com"
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
