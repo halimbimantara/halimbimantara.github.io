@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Linux | Halim[T4arj0]]]></title>
   <link href="http://halimbimantara.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://halimbimantara.github.io/"/>
-  <updated>2015-01-22T15:07:33+07:00</updated>
+  <updated>2015-01-22T15:09:58+07:00</updated>
   <id>http://halimbimantara.github.io/</id>
   <author>
     <name><![CDATA[Halim Bimantara]]></name>
@@ -18,8 +18,11 @@
     <link href="http://halimbimantara.github.io/blog/2015/01/22/install-git-di-linux-mint/"/>
     <updated>2015-01-22T14:57:03+07:00</updated>
     <id>http://halimbimantara.github.io/blog/2015/01/22/install-git-di-linux-mint</id>
-    <content type="html"><![CDATA[<p><img src="/images/git.jpg">Kali ini saya akan sedikit sharing mengenai instalasi git di linux mint.
+    <content type="html"><![CDATA[<p><img class="left" src="/images/git.jpg">Kali ini saya akan sedikit sharing mengenai instalasi git di linux mint.
 Pastikan anda sudah mendaftar <a href="http://github.com">Github</a></p>
+
+<!--more-->
+
 
 <p>Stepnya Seperti berikut :</p>
 
