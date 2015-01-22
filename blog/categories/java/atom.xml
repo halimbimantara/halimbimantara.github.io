@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Java | Halim[T4arj0]]]></title>
   <link href="http://halimbimantara.github.io/blog/categories/java/atom.xml" rel="self"/>
   <link href="http://halimbimantara.github.io/"/>
-  <updated>2015-01-22T15:32:43+07:00</updated>
+  <updated>2015-01-22T15:34:50+07:00</updated>
   <id>http://halimbimantara.github.io/</id>
   <author>
     <name><![CDATA[Halim Bimantara]]></name>
@@ -18,7 +18,7 @@
     <link href="http://halimbimantara.github.io/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline/"/>
     <updated>2015-01-22T15:18:05+07:00</updated>
     <id>http://halimbimantara.github.io/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline</id>
-    <content type="html"><![CDATA[<p><img class="left" src="/images/java8_logo.png">Java adalah bahasa pemrograman dan platform komputasi yang pertama kali dirilis oleh Sun Microsystems pada tahun 1995. Java berjalan pada lebih dari 850 juta komputer pribadi di seluruh dunia, dan pada miliaran perangkat di seluruh dunia, termasuk ponsel dan perangkat TV.</p>
+    <content type="html"><![CDATA[<p><img class="left" src="/images/java8_logo.png" width="320" height="240" title="Java logo" >Java adalah bahasa pemrograman dan platform komputasi yang pertama kali dirilis oleh Sun Microsystems pada tahun 1995. Java berjalan pada lebih dari 850 juta komputer pribadi di seluruh dunia, dan pada miliaran perangkat di seluruh dunia, termasuk ponsel dan perangkat TV.</p>
 
 <!--more-->
 
