@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Halim[T4arj0]]]></title>
-  <link href="http://halimbimantara.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Golang,programming | Halim[T4arj0]]]></title>
+  <link href="http://halimbimantara.github.io/blog/categories/golang-programming/atom.xml" rel="self"/>
   <link href="http://halimbimantara.github.io/"/>
   <updated>2015-01-22T13:31:59+07:00</updated>
   <id>http://halimbimantara.github.io/</id>
@@ -18,7 +18,7 @@
     <link href="http://halimbimantara.github.io/blog/2015/01/22/instalasi-golang/"/>
     <updated>2015-01-22T13:16:49+07:00</updated>
     <id>http://halimbimantara.github.io/blog/2015/01/22/instalasi-golang</id>
-    <content type="html"><![CDATA[<p><img src="https://halimbimb.files.wordpress.com/2014/10/download.jpg">Kemarin ketika mencari refrensi mengenai Google Cloud Message untuk pengerjaan proyek uji coba saya, secara tidak sengaja menemukan sesuatu yang sangat menarik di halaman Google Developers bagian âApp Engineâ.Saya menemukan beberapa list logo beberapa bahasa pemograman yang salah satunya bernamakan Go seperti gambar dibawah ini.</p>
+    <content type="html"><![CDATA[<p><img class="<a" src="href="https://halimbimb.files.wordpress.com/2014/10/download.jpg">https://halimbimb.files.wordpress.com/2014/10/download.jpg</a>&#8220;>Kemarin ketika mencari refrensi mengenai Google Cloud Message untuk pengerjaan proyek uji coba saya, secara tidak sengaja menemukan sesuatu yang sangat menarik di halaman Google Developers bagian âApp Engineâ.Saya menemukan beberapa list logo beberapa bahasa pemograman yang salah satunya bernamakan Go seperti gambar dibawah ini.</p>
 
 <!--more-->
 
@@ -86,41 +86,6 @@ fmt.Printf(&ldquo;hello batch 9\n&rdquo;)
 Screenshot from 2014-10-21 22:21:56</p>
 
 <p>Oke Sekian Mengenai Google Language</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tutorial Augmented Reality Dengan Unity3D & Vuforia]]></title>
-    <link href="http://halimbimantara.github.io/blog/2015/01/19/tutorial-augmented-reality-dengan-unity3d-and-vuforia/"/>
-    <updated>2015-01-19T21:16:16+07:00</updated>
-    <id>http://halimbimantara.github.io/blog/2015/01/19/tutorial-augmented-reality-dengan-unity3d-and-vuforia</id>
-    <content type="html"><![CDATA[<p><img src="http://halimbimantara.github.io/images/vuforia.jpg"></p>
-
-<p>Langkah pertama siapkan :</p>
-
-<ol>
-<li>Unity 3D</li>
-<li>Vuforia <a href="http://developer.vuforia.com">Daftar dulu</a></li>
-<li>Blender</li>
-<li>Android SDK</li>
-</ol>
-
-
-<!--more-->
-
-
-<p>Siapkan Target image pastikan kualitasnya bagus
-Login ke Vuforia  -> Target Manager</p>
-
-<p><img src="http://halimbimantara.github.io/images/Ar_1.png"></p>
-
-<p>Pilih create database nama sesuai keinginan -> buka database yang barusan di buat -> Pilih Add target</p>
-
-<p><img src="http://halimbimantara.github.io/images/Ar_2.png">
-Target Name  sesuai keinginan -> Width sesuaikan dengan gambar yang di unggah
-<img src="http://halimbimantara.github.io/images/Ar_3.png"></p>
-
-<h1>bersambung</h1>
 ]]></content>
   </entry>
   
