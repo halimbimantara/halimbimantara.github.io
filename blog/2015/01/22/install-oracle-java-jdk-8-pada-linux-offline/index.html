@@ -141,10 +141,7 @@
 <p>Ok, setelah kalian men-download file tadi, sekarang saatnya untuk meng-instal. Silahkan ikuti petunjuk dibawah ini..
 (NB : Disini saya menginstal JDK dan JRE versi x86 untuk Linux Mint 16)</p>
 
-<ol>
-<li>Cek dulu java versi apa yang kalian punya saat ini dengan mengetik perintah berikut pada terminal linux.</li>
-</ol>
-
+<p>1 .Cek dulu java versi apa yang kalian punya saat ini dengan mengetik perintah berikut pada terminal linux.</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>java -version
@@ -164,30 +161,21 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Nah, jika yang keluar seperti diatas, maka kalian perlu uninstall openJDK terlebih dahulu. Kalian cukup mengetik perintah dibawah ini pada terminal</li>
-</ol>
-
+<p>2 .Nah, jika yang keluar seperti diatas, maka kalian perlu uninstall openJDK terlebih dahulu. Kalian cukup mengetik perintah dibawah ini pada terminal</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo apt-get purge openjdk-<span class="se">\*</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Langkah selanjutnya adalah membuat direktori yang akan menampung file java yang akan kita install</li>
-</ol>
-
+<p>3 .Langkah selanjutnya adalah membuat direktori yang akan menampung file java yang akan kita install</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo mkdir -p /usr/local/java
 </span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Sekarang kita copy hasil download Oracle Java tadi ke /usr/local/java yang telah kita buat pada langkah 3 tadi. (Saya asumsikan file hasil download berada pada folder Downloads)</li>
-</ol>
-
+<p>4 . Sekarang kita copy hasil download Oracle Java tadi ke /usr/local/java yang telah kita buat pada langkah 3 tadi. (Saya asumsikan file hasil download berada pada folder Downloads)</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -200,20 +188,14 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Sekarang kita mengubah permission kedua file tadi agar bisa dieksekusi.</li>
-</ol>
-
+<p>5 . Sekarang kita mengubah permission kedua file tadi agar bisa dieksekusi.</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo chmod a+x jdk-8u25-linux-i586.tar.gz
 </span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Kemudian kita ekstrak 2 file tadi</li>
-</ol>
-
+<p>6 . Kemudian kita ekstrak 2 file tadi</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>tar xvzf jdk-8u25-linux-i586.tar.gz
@@ -222,10 +204,7 @@
 
 <p>dari hasil ekstrak tadi, Maka akan menghasilkan  folder. Yaitu folder jdk-8u25-linux-i586/</p>
 
-<ol>
-<li>Edit file profile di folder /etc</li>
-</ol>
-
+<p>7 . Edit file profile di folder /etc</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo pico /etc/profile
@@ -234,10 +213,7 @@
 
 <p></p>
 
-<ol>
-<li>Ketik sytax berikut dibagian paling bawah</li>
-</ol>
-
+<p>8 . Ketik sytax berikut dibagian paling bawah</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -256,10 +232,7 @@
 
 <p>Simpan dengan menekan CTRL+O dan keluar dengan menekan CTRL+X</p>
 
-<ol>
-<li>Informasikan ke mesin ubuntu lokasi instalasi oracle jdk :</li>
-</ol>
-
+<p>9 . Informasikan ke mesin ubuntu lokasi instalasi oracle jdk :</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -270,10 +243,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Informasikan ke mesin ubuntu bahwa oracle java JDK/JRE adalah default java</li>
-</ol>
-
+<p>10 . Informasikan ke mesin ubuntu bahwa oracle java JDK/JRE adalah default java</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -284,10 +254,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Reload system PATH dengan perintah :</li>
-</ol>
-
+<p>11 . Reload system PATH dengan perintah :</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>halim@halim_xda ~ <span class="nv">$ </span>. /etc/profile
@@ -296,10 +263,7 @@
 
 <p>(perhatikan tanda titik sebelum tanda back slash, harus diketik !)</p>
 
-<ol>
-<li>Test, apakah java sudah terinstal dengan sempurna atau belum. Ketik perintah dibawah</li>
-</ol>
-
+<p>12 . Test, apakah java sudah terinstal dengan sempurna atau belum. Ketik perintah dibawah</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>halim@halim_xda ~ <span class="nv">$ </span>java -version
