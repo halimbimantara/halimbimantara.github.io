@@ -10,18 +10,15 @@
 <meta charset="utf-8">
 <meta http-equiv="cleartype" content="on">
 
-<title>Install Git Di Linux Mint - Halim[T4arj0]</title>
+<title>Install Oracle Java JDK 8 Pada Linux Offline - Halim[T4arj0]</title>
 <meta name="author" content="Halim Bimantara">
 
 
 
 
-<meta name="description" content="Kali ini saya akan sedikit sharing mengenai instalasi git di linux mint.
-Pastikan anda sudah mendaftar Github Stepnya Seperti berikut : 1
-2
-halim@ &hellip;">
+<meta name="description" content="Java adalah bahasa pemrograman dan platform komputasi yang pertama kali dirilis oleh Sun Microsystems pada tahun 1995. Java berjalan pada lebih dari &hellip;">
 
-<meta name="keywords" content="linux ">
+<meta name="keywords" content="linux java ">
 
 
 <!-- http://t.co/dKP3o1e -->
@@ -33,31 +30,25 @@ halim@ &hellip;">
 
   
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="/images/GitHub-Android.jpg"
+    <meta name="twitter:image" content="/images/abstract-4.jpg"
   
-  <meta name="twitter:title" content="Install Git di Linux Mint">
-  <meta name="twitter:description" content="Kali ini saya akan sedikit sharing mengenai instalasi git di linux mint.
-Pastikan anda sudah mendaftar Github Stepnya Seperti berikut : 1
-2
-halim@ &hellip;">
+  <meta name="twitter:title" content="Install Oracle Java JDK 8 pada Linux Offline">
+  <meta name="twitter:description" content="Java adalah bahasa pemrograman dan platform komputasi yang pertama kali dirilis oleh Sun Microsystems pada tahun 1995. Java berjalan pada lebih dari &hellip;">
   <meta name="twitter:creator" content="@halim_bim">
 
 
 <!-- Open Graph -->
 <meta property="og:local" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://halimbimantara.github.io/blog/2015/01/22/install-git-di-linux-mint">
-<meta property="og:title" content="Install Git di Linux Mint">
-<meta property="og:description" content="Kali ini saya akan sedikit sharing mengenai instalasi git di linux mint.
-Pastikan anda sudah mendaftar Github Stepnya Seperti berikut : 1
-2
-halim@ &hellip;">
+<meta property="og:url" content="http://halimbimantara.github.io/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline">
+<meta property="og:title" content="Install Oracle Java JDK 8 pada Linux Offline">
+<meta property="og:description" content="Java adalah bahasa pemrograman dan platform komputasi yang pertama kali dirilis oleh Sun Microsystems pada tahun 1995. Java berjalan pada lebih dari &hellip;">
 
-  <meta property="og:image" content="/images/GitHub-Android.jpg">
+  <meta property="og:image" content="/images/abstract-4.jpg">
 
 <meta property="og:site_name" content="Halim[T4arj0]">
 
-<link rel="canonical" href="http://halimbimantara.github.io/blog/2015/01/22/install-git-di-linux-mint">
+<link rel="canonical" href="http://halimbimantara.github.io/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline">
 <link href="/favicon.png" rel="icon">
 <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -119,7 +110,7 @@ halim@ &hellip;">
 <div class="entry-header">
   
   <div class="entry-image">
-    <img src="/images/GitHub-Android.jpg" alt="Install Git di Linux Mint">
+    <img src="/images/abstract-4.jpg" alt="Install Oracle Java JDK 8 pada Linux Offline">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
@@ -129,37 +120,62 @@ halim@ &hellip;">
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="/blog/2015/01/22/install-git-di-linux-mint/" rel="bookmark" title="Install Git di Linux Mint">Install Git di Linux Mint</a></h1>
+          <h1 class="entry-title"><a href="/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline/" rel="bookmark" title="Install Oracle Java JDK 8 pada Linux Offline">Install Oracle Java JDK 8 pada Linux Offline</a></h1>
         
         <h2>January 22, 2015</h2>
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p><img class="left" src="/images/git.jpg">Kali ini saya akan sedikit sharing mengenai instalasi git di linux mint.
-Pastikan anda sudah mendaftar <a href="http://github.com">Github</a></p>
+      <p><img class="left" src="/images/java8_logo">Java adalah bahasa pemrograman dan platform komputasi yang pertama kali dirilis oleh Sun Microsystems pada tahun 1995. Java berjalan pada lebih dari 850 juta komputer pribadi di seluruh dunia, dan pada miliaran perangkat di seluruh dunia, termasuk ponsel dan perangkat TV.</p>
 
-<!--more-->
+<p>Pada Tulisan kali ini, kita akan mencoba meng-instal Oracle Java 8 pada Linux mint ataupun ubuntu . Caranya lumayan gampang kok. Secara default sih ubuntu/linux mint udah menyediakan openJDK dan openJRE. berhubung yang terkenal Oracle dan teman-teman sangat membutuhkan JDK buat Programming Java dll maka saya membuat tutorial menggunakan Java Oracle.</p>
+
+<ul>
+<li>Hal pertama yang perlu kalian lakukan adalah men-download file JDK dan JRE dari Oracle yang beralamat <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">disini</a></li>
+</ul>
 
 
-<p>Stepnya Seperti berikut :</p>
+<p>Ok, setelah kalian men-download file tadi, sekarang saatnya untuk meng-instal. Silahkan ikuti petunjuk dibawah ini..
+(NB : Disini saya menginstal JDK dan JRE versi x86 untuk Linux Mint 16)</p>
+
+<ol>
+<li>Cek dulu java versi apa yang kalian punya saat ini dengan mengetik perintah berikut pada terminal linux.</li>
+</ol>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>java -version
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Jika hasil yang keluar kurang-lebih seperti dibawah ini, berarti ubuntu kalian ter-instal openJDK dan openJRE</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>halim@halim_xda ~ <span class="nv">$ </span>sudo apt-get update
-</span><span class='line'>halim@halim_xda ~ <span class="nv">$ </span>sudo apt-get install git
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>java -version
+</span><span class='line'>java version “1.6.0_21?
+</span><span class='line'>OpenJDK Runtime Environment <span class="o">(</span>IcedTea6 1.10pre<span class="o">)</span> <span class="o">(</span>6b21~pre1-0lucid1<span class="o">)</span>
+</span><span class='line'>OpenJDK 32-Bit Server VM <span class="o">(</span>build 19.0-b09, mixed mode<span class="o">)</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Setting user github</p>
+<ol>
+<li>Nah, jika yang keluar seperti diatas, maka kalian perlu uninstall openJDK terlebih dahulu. Kalian cukup mengetik perintah dibawah ini pada terminal</li>
+</ol>
+
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>halim@halim_xda ~ <span class="nv">$ </span>git config --global user.email <span class="s2">&quot;bimadel6@gmail.com&quot;</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo apt-get purge openjdk-<span class="se">\*</span>
 </span></code></pre></td></tr></table></div></figure>
+
+
 
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="/categories/#linux" title="Pages tagged linux" class="tag">linux</a></span>
-        <span><a href="/blog/2015/01/22/install-git-di-linux-mint/" rel="bookmark" title="Install Git di Linux Mint">Install Git di Linux Mint</a> was published on <span class="entry-date date published updated"><time datetime="2015-01-22T14:57:03+07:00">January 22, 2015</time></span></span>
+        <span class="entry-tags"><a href="/categories/#linux" title="Pages tagged linux" class="tag">linux</a><a href="/categories/#java" title="Pages tagged java" class="tag">java</a></span>
+        <span><a href="/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline/" rel="bookmark" title="Install Oracle Java JDK 8 pada Linux Offline">Install Oracle Java JDK 8 pada Linux Offline</a> was published on <span class="entry-date date published updated"><time datetime="2015-01-22T15:18:05+07:00">January 22, 2015</time></span></span>
         
         <span class="author vcard"><span class="fn"><a href="" title="About Halim Bimantara">Halim Bimantara</a></span></span>
         
@@ -169,11 +185,11 @@ Pastikan anda sudah mendaftar <a href="http://github.com">Github</a></p>
       <div class="read-more">
         
           <div class="read-more-header">
-            <a href="/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline/" class="btn">Read More</a>
+            <a href="/blog/2015/01/22/install-git-di-linux-mint/" class="btn">Read More</a>
           </div><!-- /.read-more-header -->
           <div class="read-more-content">
-            <h3><a href="/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline/" title="Install Oracle Java JDK 8 pada Linux Offline">Install Oracle Java JDK 8 pada Linux Offline</a></h3>
-            <p>{% img left /images/java8_logo %}Java adalah bahasa pemrograman dan platform komputasi yang pertama kali dirilis oleh Sun Microsystems pada &hellip;&hellip; <a href="/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline/"> Continue reading</a></p>
+            <h3><a href="/blog/2015/01/22/install-git-di-linux-mint/" title="Install Git di Linux Mint">Install Git di Linux Mint</a></h3>
+            <p>Kali ini saya akan sedikit sharing mengenai instalasi git di linux mint.Pastikan anda sudah mendaftar GithubStepnya Seperti berikut : &hellip;&hellip; <a href="/blog/2015/01/22/install-git-di-linux-mint/"> Continue reading</a></p>
           </div><!-- /.read-more-content -->
         
         <div class="read-more-list">
@@ -217,8 +233,8 @@ Pastikan anda sudah mendaftar <a href="http://github.com">Github</a></p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://halimbimantara.github.io/blog/2015/01/22/install-git-di-linux-mint/';
-        var disqus_url = 'http://halimbimantara.github.io/blog/2015/01/22/install-git-di-linux-mint/';
+        var disqus_identifier = 'http://halimbimantara.github.io/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline/';
+        var disqus_url = 'http://halimbimantara.github.io/blog/2015/01/22/install-oracle-java-jdk-8-pada-linux-offline/';
         var disqus_script = 'embed.js';
       
     (function () {
