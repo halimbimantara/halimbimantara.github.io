@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Golang,programming | Halim[T4arj0]]]></title>
-  <link href="http://halimbimantara.github.io/blog/categories/golang-programming/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Golang | Halim[T4arj0]]]></title>
+  <link href="http://halimbimantara.github.io/blog/categories/golang/atom.xml" rel="self"/>
   <link href="http://halimbimantara.github.io/"/>
-  <updated>2015-01-22T13:31:59+07:00</updated>
+  <updated>2015-01-22T14:02:40+07:00</updated>
   <id>http://halimbimantara.github.io/</id>
   <author>
     <name><![CDATA[Halim Bimantara]]></name>
@@ -18,17 +18,19 @@
     <link href="http://halimbimantara.github.io/blog/2015/01/22/instalasi-golang/"/>
     <updated>2015-01-22T13:16:49+07:00</updated>
     <id>http://halimbimantara.github.io/blog/2015/01/22/instalasi-golang</id>
-    <content type="html"><![CDATA[<p><img class="<a" src="href="https://halimbimb.files.wordpress.com/2014/10/download.jpg">https://halimbimb.files.wordpress.com/2014/10/download.jpg</a>&#8220;>Kemarin ketika mencari refrensi mengenai Google Cloud Message untuk pengerjaan proyek uji coba saya, secara tidak sengaja menemukan sesuatu yang sangat menarik di halaman Google Developers bagian âApp Engineâ.Saya menemukan beberapa list logo beberapa bahasa pemograman yang salah satunya bernamakan Go seperti gambar dibawah ini.</p>
+    <content type="html"><![CDATA[<p><img class="left <a" src="href="https://halimbimb.files.wordpress.com/2014/10/download.jpg">https://halimbimb.files.wordpress.com/2014/10/download.jpg</a>&#8220;>Kemarin ketika mencari refrensi mengenai Google Cloud Message untuk pengerjaan proyek uji coba saya, secara tidak sengaja menemukan sesuatu yang sangat menarik di halaman Google Developers bagian âApp Engineâ.Saya menemukan beberapa list logo beberapa bahasa pemograman.</p>
 
 <!--more-->
 
 
 <p>Go language sendiri di gunakan oleh Google pada platform Google App Engine selain praktis Go Lang sendiri dapat di compile dalam beberapa Arsitektur komputer contohnya :</p>
 
-<p>Linux 32 bit /64 bit ,
-Arm
-ataupun kedepanya nanti mencakup platform Mobile seperti Android dll
-download</p>
+<ul>
+<li>Linux 32 bit /64 bit ,</li>
+<li>Arm</li>
+<li>ataupun kedepanya nanti mencakup platform Mobile seperti Android dll</li>
+</ul>
+
 
 <p>Apa itu Go?</p>
 
@@ -52,14 +54,8 @@ Kelebihan bahasa pemrograman Go adalah open source. Inilah yang menjadi nilai pl
 </ol>
 
 
-<p>  root@root# nano     /etc/profile</p>
-
-<ol>
-<li>Lalu tambahkan kode seperti dibawah lalu save</li>
-</ol>
-
-
-<p>export PATH=${PATH}:/home/halim/Appku/go/bin</p>
+<pre><code class="bash">halim@halim_xda ~ $  $export PATH=${PATH}:/home/halim/Appku/go/bin
+</code></pre>
 
 <p>5.Reload ulang biar Go bisa muncul ketika di Terminal dengan perintah :
 halim@halim_xda ~ $ . /etc/profile</p>
@@ -84,6 +80,11 @@ Screenshot from 2014-10-21 22:09:53</li>
 fmt.Printf(&ldquo;hello batch 9\n&rdquo;)
 }
 Screenshot from 2014-10-21 22:21:56</p>
+
+<p>Video Lengkap Seputar Golang</p>
+
+<iframe width="854" height="510" src="//www.youtube.com/embed/T1V_efgR-CQ" frameborder="0" allowfullscreen></iframe>
+
 
 <p>Oke Sekian Mengenai Google Language</p>
 ]]></content>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Design | Halim[T4arj0]]]></title>
+  <link href="http://halimbimantara.github.io/blog/categories/design/atom.xml" rel="self"/>
+  <link href="http://halimbimantara.github.io/"/>
+  <updated>2015-01-22T14:02:40+07:00</updated>
+  <id>http://halimbimantara.github.io/</id>
+  <author>
+    <name><![CDATA[Halim Bimantara]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tutorial Augmented Reality Dengan Unity3D & Vuforia]]></title>
+    <link href="http://halimbimantara.github.io/blog/2015/01/19/tutorial-augmented-reality-dengan-unity3d-and-vuforia/"/>
+    <updated>2015-01-19T21:16:16+07:00</updated>
+    <id>http://halimbimantara.github.io/blog/2015/01/19/tutorial-augmented-reality-dengan-unity3d-and-vuforia</id>
+    <content type="html"><![CDATA[<p><img src="/images/vuforia.jpg"></p>
+
+<p>Langkah pertama siapkan :</p>
+
+<ol>
+<li>Unity 3D</li>
+<li>Vuforia <a href="http://developer.vuforia.com">Daftar dulu</a></li>
+<li>Blender</li>
+<li>Android SDK</li>
+</ol>
+
+
+<!--more-->
+
+
+<p>Siapkan Target image pastikan kualitasnya bagus
+Login ke Vuforia  -> Target Manager</p>
+
+<p><img src="/images/Ar_1.png"></p>
+
+<p>Pilih create database nama sesuai keinginan -> buka database yang barusan di buat -> Pilih Add target</p>
+
+<p><img src="/images/Ar_2.png">
+Target Name  sesuai keinginan -> Width sesuaikan dengan gambar yang di unggah
+<img src="/images/Ar_3.png"></p>
+
+<h1>bersambung</h1>
+]]></content>
+  </entry>
+  
+</feed>
