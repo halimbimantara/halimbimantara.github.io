@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Buku Digital | Halim[T4arj0]]]></title>
   <link href="http://halimbimantara.github.io/blog/categories/buku-digital/atom.xml" rel="self"/>
   <link href="http://halimbimantara.github.io/"/>
-  <updated>2015-01-22T14:46:13+07:00</updated>
+  <updated>2015-01-22T14:47:53+07:00</updated>
   <id>http://halimbimantara.github.io/</id>
   <author>
     <name><![CDATA[Halim Bimantara]]></name>
@@ -18,8 +18,11 @@
     <link href="http://halimbimantara.github.io/blog/2015/01/22/membuat-buku-digital-epub/"/>
     <updated>2015-01-22T14:26:04+07:00</updated>
     <id>http://halimbimantara.github.io/blog/2015/01/22/membuat-buku-digital-epub</id>
-    <content type="html"><![CDATA[<p><img class="left" src="/images/book.jpg" width="150" height="250" title="Digital book" >
+    <content type="html"><![CDATA[<p><img class="left" src="/images/book.jpg" title="Digital book" >
 Hay kawan lama tidak ngepost.. kali ini saya akan memberikan tutorial mengenai Bagaimana cara membuat buku digital dengan format Epub Menggunakan Software SIGIL</p>
+
+<!--more-->
+
 
 <p>Persiapkan :
 1. Aplikasi  -> <a href="http://www.downloadcrew.com/article/23796-sigil_32-bit">SIGIL</a>
