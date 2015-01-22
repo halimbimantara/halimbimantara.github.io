@@ -4,7 +4,7 @@
   <title><![CDATA[Halim[T4arj0]]]></title>
   <link href="http://halimbimantara.github.io/atom.xml" rel="self"/>
   <link href="http://halimbimantara.github.io/"/>
-  <updated>2015-01-22T14:02:40+07:00</updated>
+  <updated>2015-01-22T14:18:31+07:00</updated>
   <id>http://halimbimantara.github.io/</id>
   <author>
     <name><![CDATA[Halim Bimantara]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tutorial Modeling Dan Rigging Karakter Danbo]]></title>
+    <link href="http://halimbimantara.github.io/blog/2015/01/22/tutorial-modeling/"/>
+    <updated>2015-01-22T14:10:54+07:00</updated>
+    <id>http://halimbimantara.github.io/blog/2015/01/22/tutorial-modeling</id>
+    <content type="html"><![CDATA[<h1>Modeling karakter danbo dengan 3D Blender</h1>
+
+<iframe width="854" height="510" src="//www.youtube.com/embed/GA5GozFDfzY" frameborder="0" allowfullscreen></iframe>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Instalasi Golang]]></title>
