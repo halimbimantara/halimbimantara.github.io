@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Linux | Halim[T4arj0]]]></title>
   <link href="http://halimbimantara.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://halimbimantara.github.io/"/>
-  <updated>2015-01-22T15:37:08+07:00</updated>
+  <updated>2015-01-22T22:31:11+07:00</updated>
   <id>http://halimbimantara.github.io/</id>
   <author>
     <name><![CDATA[Halim Bimantara]]></name>
@@ -49,8 +49,104 @@ OpenJDK 32-Bit Server VM (build 19.0-b09, mixed mode)
 <code>bash
 sudo apt-get purge openjdk-\*
 </code></li>
+<li>Langkah selanjutnya adalah membuat direktori yang akan menampung file java yang akan kita install
+<code>bash
+sudo mkdir -p /usr/local/java
+</code></li>
+<li>Sekarang kita copy hasil download Oracle Java tadi ke /usr/local/java yang telah kita buat pada langkah 3 tadi. (Saya asumsikan file hasil download berada pada folder Downloads)</li>
 </ol>
 
+
+<pre><code class="bash">sudo -s
+cd Downloads
+cp -r jdk-8u25-linux-i586.tar.gz /usr/local/java
+cd /usr/local/java
+</code></pre>
+
+<ol>
+<li>Sekarang kita mengubah permission kedua file tadi agar bisa dieksekusi.</li>
+</ol>
+
+
+<pre><code class="bash">sudo chmod a+x jdk-8u25-linux-i586.tar.gz
+</code></pre>
+
+<ol>
+<li>Kemudian kita ekstrak 2 file tadi
+<code>bash
+tar xvzf jdk-8u25-linux-i586.tar.gz
+</code></li>
+</ol>
+
+
+<p>dari hasil ekstrak tadi, Maka akan menghasilkan  folder. Yaitu folder jdk-8u25-linux-i586/</p>
+
+<ol>
+<li>Edit file profile di folder /etc</li>
+</ol>
+
+
+<pre><code class="bash">sudo pico /etc/profile
+</code></pre>
+
+<ol>
+<li>Ketik sytax berikut dibagian paling bawah</li>
+</ol>
+
+
+<pre><code class="java">JAVA_HOME=/usr/local/java/jdk-8u25-linux-i586
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+JAVA_HOME=/usr/local/java/jdk-8u25-linux-i586/jre
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+</code></pre>
+
+<p>Simpan dengan menekan CTRL+O dan keluar dengan menekan CTRL+X</p>
+
+<ol>
+<li>Informasikan ke mesin ubuntu lokasi instalasi oracle jdk :</li>
+</ol>
+
+
+<pre><code class="bash">sudo update-alternatives --install “/usr/bin/java” “java” “/usr/local/java/jdk-8u25-linux-i586/jre/bin/java” 1
+
+sudo update-alternatives --install “/usr/bin/javac” “javac” “/usr/local/java/jdk-8u25-linux-i586/bin/javac” 1
+</code></pre>
+
+<ol>
+<li>Informasikan ke mesin ubuntu bahwa oracle java JDK/JRE adalah default java
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo update-alternatives <span class="p">&amp;</span>ndash<span class="p">;</span><span class="nb">set </span>java /usr/local/java/jdk-8u25-linux-i586/jre/java&lt;/li&gt;
+</span><span class='line'>&lt;/ol&gt;
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;sudo update-alternatives <span class="p">&amp;</span>ndash<span class="p">;</span><span class="nb">set </span>javac /usr/local/java/jdk-8u25-linux-i586/bin/javac
+</span></code></pre></td></tr></table></div></figure></p>
+
+<ol>
+<li>Reload system PATH dengan perintah :</li>
+</ol>
+
+
+<pre><code class="bash">halim@halim_xda ~ $ . /etc/profile
+</code></pre>
+
+<p>(perhatikan tanda titik sebelum tanda back slash, harus diketik !)</p>
+
+<ol>
+<li>Test, apakah java sudah terinstal dengan sempurna atau belum. Ketik perintah dibawah
+<code>bash
+halim@halim_xda ~ $ java -version
+</code></li>
+</ol>
+
+
+<p>Oke sekian Semoga membantu</p>
 ]]></content>
   </entry>
   
